@@ -8,8 +8,10 @@ using namespace std;
 
 
 int main () {
+    int nombre;
     cout<<"hola";
-    cin>>cha;
+    cin>>nombre;
+
 
 
 
