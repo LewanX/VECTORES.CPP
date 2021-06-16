@@ -8,9 +8,9 @@ using namespace std;
 
 
 int main () {
-    int nombre;
+    int nombres;
      cout<<"hola"<<endl;
-     cin>>nombre;
+     cin>>nombres;
 
 
 
