@@ -30,23 +30,24 @@ while(jugador!=0){
     cout<<"ingrese el numero del jugador"<<endl;
 cin>>jugador;
 }
-cout<<"JUGADOR\tGOLES"<<endl;
+    cout<<"JUGADOR\tGOLES"<<endl;
 
-for(i=0;i<20;i++){
-cout<<"  "<<i+1<<" \t  "<<vgoles[i]<<endl;
-
-}
-for(i=0;i<20;i++){
-
-    if(vgoles[i]>5){
-    cgoles+=1;
+    for(i=0;i<20;i++){
+        cout<<"  "<<i+1<<" \t  "<<vgoles[i]<<endl;
 
 }
-}
-for(i=0;i<20;i++){
+    for(i=0;i<20;i++){
 
-    if(vgoles[i]==0){
-    cnogoles+=1;
+        if(vgoles[i]>5){
+        cgoles+=1;
+
+}
+
+}
+    for(i=0;i<20;i++){
+
+        if(vgoles[i]==0){
+        cnogoles+=1;
 
 }
 
